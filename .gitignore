@@ -1,0 +1,4 @@
+build/
+dockerbuild/
+*.so
+.DS_Store

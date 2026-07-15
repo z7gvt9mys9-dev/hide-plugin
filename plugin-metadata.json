@@ -1,0 +1,11 @@
+{
+	"name": "hide",
+	"alias": "hide",
+	"display_name": "CS2 Admin Hide",
+	"description": "Hidden spectator mode for admins (!hide), invisible in TAB scoreboard",
+	"author": "2kx (core infrastructure adapted from CS2Fixes by Source2ZE)",
+	"url": "https://github.com/Source2ZE/CS2Fixes",
+	"log_tag": "HIDE",
+	"license": "GPL v3 License",
+	"version": "{{parsed-version}}"
+}

@@ -1,0 +1,26 @@
+// Gamedata for the hide plugin.
+// Values may need updating after major CS2 updates.
+// Reference: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.jsonc
+{
+	"Offsets":
+	{
+		// Offset of the CGameEntitySystem* within CGameResourceService
+		"GameEntitySystem":
+		{
+			"windows": 88,
+			"linux": 80
+		},
+		// Vtable index of CCSPlayerController::ChangeTeam(int)
+		"CCSPlayerController_ChangeTeam":
+		{
+			"windows": 103,
+			"linux": 102
+		},
+		// Offset of the player slot within CCheckTransmitInfo (part of the containing client class)
+		"CheckTransmitPlayerSlot":
+		{
+			"windows": 576,
+			"linux": 576
+		}
+	}
+}
